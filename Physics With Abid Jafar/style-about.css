@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #0a0a23;
+}
+
+.topnav a{
+    font-family: 'Lato', sans-serif;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    color: white;
+}
+.mobutton{
+    margin-top: 10px;
+    display: none;
+    border: none;
+    background-color: #febe41;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    width: 100px;
+    height: 30px;
+}
+.mobutton:hover{
+    color: #febe41;
+    background-color: #0a0a23;
+}
+.btn{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #febe41;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    margin-right: 90px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: -35px;
+    float: right;
+}
+.btn:hover{
+    color: white;
+    background-color: transparent;
+    border: 3px solid #febe41;
+}
+.btn-2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #febe41;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    margin-left: 90px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: -35px;
+    float: left;
+}
+.btn-2:hover{
+    
+    color: white;
+    background-color: transparent;
+    border: 3px solid #febe41;
+}
+.header-1{
+    margin-top: 50px;
+    font-size: 50px;  
+}
+.column {
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+.desc{
+    margin-bottom: 50px;
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.stats{
+    margin-top: -20px;
+    font-size: 25px;
+}
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    background-color: #febe41;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 40px;
+    height: 40px;
+    width: 200px;
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    transform: translateY(-5px);
+    background-color: #fcd17b;
+  }
+
+  footer{
+    margin-top: 20px;
+    padding: 3px;
+    background-color: #0a0a23;
+}
+.quick-links{
+    text-align: center;
+}
+.quick-links ul li a{
+    padding-right: 35px;
+    display: inline;
+}
+
+.socials{
+    text-align: center;
+}
+.socials ul li i{
+    padding-right: 35px;
+    display: inline;
+}
+.socials ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-header,
+.footer-sub-title{
+    color: white;
+}
+.footer-desc,
+.quick-links ul li a,
+.socials ul li i{
+    color: grey;
+}
+.footer-desc{
+    margin-bottom: 45px;
+    margin-top: -15px;
+}
+.quick-links ul li a{
+    font-size: 17px;
+    transition: 0.3s;
+}
+.quick-links ul li a:hover{
+    text-decoration: none;
+    color: #febe41;
+}
+.socials ul li i{
+    font-size: 30px;
+    transition: 0.3s;
+}
+.socials ul li i:hover{
+    color: #febe41;
+}
+.footer-copyright{
+    margin-top: 30px;
+    text-align: center;
+    color: grey;
+}
+.footer-copyright a{
+    color: white;
+    transition: 0.3s;
+}
+.footer-copyright a:hover{
+    text-decoration: none;
+    color: #febe41;
+    font-size: 20px;
+}
+.footer-p span{
+    color: white;
+    font-size: 17px;
+    margin-right: 4px;
+}
+.footer-p{
+    color: grey;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 90%;
+        display: block;
+      }
+      .desc{
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+    .btn{
+        display: none;
+    }
+    .btn-2{
+        display: none;
+    }
+      .mobutton{
+        display: inline;
+    }
+    .footer-header{
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .footer-desc{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .footer-sub-title{
+        font-size: 20px;
+    }
+    .quick-links ul li a{
+        font-size: 10px;
+    }
+    .socials ul li i{
+        font-size: 20px;
+    }
+    .footer-p{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
